@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/design.css">
+</head>
+<body>
+    <!-- Dashboard section -->
+    <div id="dashboard" class="dashboard">
+        <!-- Flex container for deposit, withdraw, and balance sections -->
+        <div class="flex" id="flex">
+            <!-- Deposit section -->
+            <div class="deposit">
+                <h2>Deposit</h2>
+                <!-- Display deposit amount -->
+                <p>
+                    $<span id="deposit">0</span>
+                </p>
+            </div>
+
+            <!-- Withdraw section -->
+            <div class="withdraw">
+                <h2>Withdraw</h2>
+                <!-- Display withdraw amount -->
+                <p>
+                    $<span id="withdraw">0</span>
+                </p>
+            </div>
+
+            <!-- Balance section -->
+            <div class="balance">
+                <h2>Balance</h2>
+                <!-- Display balance amount -->
+                <p>
+                    $<span id="balance">0</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- Input section for deposit and withdraw -->
+        <div class="input-section" id="input-section">
+            <!-- Deposit input section -->
+            <div class="deposit-input">
+                <h4>Deposit</h4>
+                <!-- Input field for deposit amount -->
+                <input type="number" id="deposit-input" placeholder="input">
+                <br>
+                <!-- Button to initiate deposit -->
+                <button class="deposit-btn" id="deposit-btn">Deposit</button>
+            </div>
+
+            <!-- Withdraw input section -->
+            <div class="withdraw-input">
+                <h4>Withdraw</h4>       
+                <!-- Input field for withdraw amount -->
+                <input type="number" id="withdraw-input" placeholder="input">
+                <br>
+                <!-- Button to initiate withdraw -->
+                <button class="withdraw-btn" id="withdraw-btn">withdraw</button>              
+            </div>
+        </div>
+    </div>
+
+    <!-- Transaction history section -->
+    <div id="transaction-history" class="transaction-history">
+        <!-- Transaction history will be dynamically populated here -->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

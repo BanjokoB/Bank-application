@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/popup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css">
+
+    <!-- Title -->
+    <title>Obiz's Bank </title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="wrapper">
+            <!-- Navigation Brand -->
+            <div class="nav-brand"><i class="las la-vector-square"></i>Obiz's Bank</div>
+            <!-- Navigation Menu -->
+            <nav>
+                <div class="nav-link">
+                    <ul class="nav-item">
+                        <li>
+                            <a href="#">iBanking  .</a>
+                        </li>
+                        <li>
+                            <a href="#">Payment  .</a>
+                        </li>
+                        <li>
+                            <a href="#">Account  .</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Login Button -->
+            <div class="btn-main" id="login">
+                <button id="show-login"> <a href="#">LOGIN</a></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Popup for Login -->
+    <div class="popup">
+        <div class="close-btn">&times;</div>
+        <div class="form">
+            <h2>Log in</h2>
+            <!-- Login Form -->
+            <form class="form-element" id="myform">
+                <label for="account">Accountnumber</label>
+                <input type="number" id="acct" placeholder="Enter your account number"><br><br>
+
+                <label for="password">password</label>
+                <input type="password" id="password" placeholder="Enter your password"><br>
+
+                <!-- Submit Button -->
+                <input type="submit" class="btn" value="Sign-in" id="submit-btn">
+            </form>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <p><b>10</b> years of <br/> Excellence in finance</p>
+    </div>
+
+    <!-- Hero2 Section -->
+    <div class="hero2">
+        <div class="data-text">
+            <p class="Bank-info">________   Net Banking</p>
+            <p class="xl-heading">Obiz's.<span>Bank</span></p>
+            <h1 class="sub-heading">Lagos</h1>
+            <a href="#">Learn Now _______</a>
+        </div>
+        <div class="img-data">
+            <img src="./images/plastic-card.png" alt="">
+        </div>
+    </div>
+
+    <!-- Hero3 Section -->
+    <div class="hero3">
+        <div class="terms">
+            <a href="">Terms & Conditions | Privacy Policy</a>
+        </div>
+        <div class="social">
+            <a href="#">Instagram | Facebook </a>
+        </div>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

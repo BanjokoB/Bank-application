@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*, ::after, ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text-color:#fff;
+    --font:'Mulish', sans-serif;
+    --bg-color:#111;
+
+}
+
+body{
+    font-family:var(--font) ;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    position: relative;
+    overflow: hidden;
+}
+
+
+a {
+    text-decoration: none;
+    background-color: #111;
+    padding: 2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.wrapper{
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-top: 2rem;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link ul{
+    display: flex;
+}
+
+.nav-link ul li a{
+    color: var(--text-color);
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-main a {
+    color: #fff;
+    font-weight: 900;
+}
+
+.btn-main:hover{
+    transition: all 0.4s ease;
+    padding: 15px 30px;
+    outline: 2px solid #fff;
+}
+
+.nav-brand{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.la-vector-square{
+    color:var(--text-color);
+    font-size: 48px;
+    vertical-align: middle;
+}
+
+.hero{
+    padding-top: 2%;
+    padding-left: 12%;
+    /* padding-right: 12%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Bank-info{
+    font-weight: 700;
+}
+.hero2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 12%;
+}
+
+.hero p b{
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.hero2 span{
+    color: cornflowerblue;
+}
+
+.xl-heading{
+    font-size: 70px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.xl-heading span{
+    font-weight: 800;
+}
+
+.sub-heading{
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+
+.hero2 a{
+    padding: 15px 30px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size:14px;
+    color: #111;
+        transition: all 0.3s ease-in-out;
+}
+
+.hero2 a:hover{
+    background-color: #111;
+    color: #fff;
+    outline:2px solid #fff;
+    padding: 20px 40px;
+}
+
+.hero3{
+    font-size: 14px;
+    padding-left: 12%;
+    padding-right: 12%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+.hero3 a{
+    color: #fff;
+}
+
+.img-data{
+	-webkit-animation: jello-horizontal 2s infinite both;
+     animation: jello-horizontal 2s infinite both;
+        
+}
+
+ @-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1, 1);
+              transform: scale3d(0.75, 1, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
